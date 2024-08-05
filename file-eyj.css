@@ -1,0 +1,16 @@
+/* Reset the default scrollbar appearance */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background:  #f8f9fa;; /* Color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fd7e14; /* Color of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fd7e14; /* Color of the scroll thumb when hovered */
+}
